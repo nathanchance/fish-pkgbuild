@@ -1,4 +1,3 @@
-# $Id: PKGBUILD,v 1.16 2009/05/11 04:01:36 abhidg Exp $
 # Maintainer: Abhishek Dasgupta <abhidg@gmail.com>
 # Previous Maintainer: Eric Belanger <eric@archlinux.org>
 # Contributor: Jan Fader <jan.fader@web.de>
