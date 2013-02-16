@@ -6,7 +6,7 @@
 
 pkgname=fish
 pkgver=2.0b2
-pkgrel=3
+pkgrel=4
 pkgdesc='Smart and user friendly shell intended mostly for interactive use'
 arch=('i686' 'x86_64')
 url='http://ridiculousfish.com/shell/'
@@ -29,9 +29,6 @@ build() {
 package() {
   cd "$srcdir"/fishfish
   make DESTDIR="$pkgdir" install
-
-  # compress man pages
-  find "$pkgdir"/usr/share/fish/man/ -type f | xargs gzip -9
 
   # use python2
   find "$pkgdir"/usr/share/fish/tools/ -type f -exec sed -e "1s|python|python2|" -i {} \;
