@@ -11,7 +11,7 @@ pkgrel=2
 pkgdesc='Smart and user friendly shell intended mostly for interactive use'
 url='https://fishshell.com/'
 arch=('x86_64')
-license=('GPL2')
+license=('GPL-2.0-only AND BSD-3-Clause AND ISC AND MIT AND PSF-2.0')
 depends=('glibc' 'gcc-libs' 'ncurses' 'pcre2')
 optdepends=('python: man page completion parser / web config tool'
             'pkgfile: command-not-found hook')
